@@ -35,8 +35,8 @@ sampwidth = 2  # 采样宽度2bytes
 FILEPATH = 'speech.wav'
 
 base_url = "https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=%s&client_secret=%s"
-APIKey = "Y5c93sgn7dKvScMGw4Oq3gOh"
-SecretKey = "XwqzBe6oApivMGnKmr0lqenPaeMpsNIc"
+APIKey = "*******"
+SecretKey = "*******"
 
 HOST = base_url % (APIKey, SecretKey)
 
