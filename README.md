@@ -7,7 +7,8 @@ remember to record a noise file for noise reduction, or else iris may be unable 
 currently only supports english.
 Uses Baidu API for voice recognition
 ## Writing an iris app
-To write an app, go to apps.py and append to the "routes" list.
+First, define an entry function for your app (This function will be called when your app is to be run)
+go to apps.py and append to the "routes" list.
 ``` python
 {'name': 'your app name', 'main': function_to_start_your_app, 'keys': [a list of key words that will activate your app]},
 ```
