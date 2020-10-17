@@ -12,9 +12,9 @@ import random
 import os
 
 # secret_key,secretid,appid换成自己申请的
-secret_key = 'FEyjDQBfttc7ZLLFyRebz6vd8abqt860'
-secretid = 'AKIDMXQ6VhF73o9H86uwUt41GF2YnnYt7Qd1'
-appid = '1303900962'
+secret_key = '*******'
+secretid = '*******'
+appid = '*******'
 
 engine_model_type = '16k_0'
 res_type = 0
