@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - AI Assistant Blob</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="blob">
+    <canvas></canvas>
+</div>
+
+<div style="display: none;">
+<div class="controls">
+    <div>
+        <label>Speed</label>
+        <input type="range" min="10" max="10" value="10" step="1" name="speed">
+    </div>
+    <div>
+        <label>Spikes</label>
+        <input type="range" min=".06" max="0.6" value="0.4" step=".05" name="spikes">
+    </div>
+    <div>
+        <label>Processing</label>
+        <input type="range" min="2.4" max="2.4" value="2.4" step=".01" name="processing">
+    </div>
+</div>
+</div>
+<!-- dribbble -->
+<a class="dribbble" href="https://dribbble.com/shots/6640580-AI-Assistant" target="_blank"><img src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg" alt=""></a>
+<!-- partial -->
+  <script src='./jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js'></script>
+<script src='https://aaroniker.me/range.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
